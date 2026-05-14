@@ -1,0 +1,5 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-API-Version: 1.4
+
+{"user_id": "u-42", "email": "alice@example.com"}

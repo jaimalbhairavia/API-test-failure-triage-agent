@@ -1,0 +1,20 @@
+{
+  "uuid": "33333333-3333-3333-3333-333333333333",
+  "name": "test_get_user_returns_id",
+  "fullName": "tests/test_users.py::test_get_user_returns_id",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 'id' in {'user_id': 'u-42', 'email': 'alice@example.com'}",
+    "trace": "tests/test_users.py:20: in test_get_user_returns_id\n    assert \"id\" in body\nE   AssertionError: assert 'id' in {'user_id': 'u-42', 'email': 'alice@example.com'}"
+  },
+  "start": 1713182500000,
+  "stop": 1713182500210,
+  "labels": [
+    { "name": "suite", "value": "users" }
+  ],
+  "steps": [],
+  "attachments": [
+    { "name": "request",  "source": "req3-attachment.txt",  "type": "text/plain" },
+    { "name": "response", "source": "res3-attachment.txt", "type": "text/plain" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "uuid": "44444444-4444-4444-4444-444444444444",
+  "name": "test_search_products",
+  "fullName": "tests/test_products.py::test_search_products",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 503 == 200",
+    "trace": "tests/test_products.py:9: in test_search_products\n    assert resp.status_code == 200\nE   AssertionError: assert 503 == 200\nE    +  where 503 = <Response [503]>.status_code"
+  },
+  "start": 1713182600000,
+  "stop": 1713182630000,
+  "labels": [
+    { "name": "suite", "value": "products" }
+  ],
+  "steps": [],
+  "attachments": [
+    { "name": "request",  "source": "req4-attachment.txt",  "type": "text/plain" },
+    { "name": "response", "source": "res4-attachment.txt", "type": "text/plain" }
+  ]
+}

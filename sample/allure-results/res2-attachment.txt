@@ -1,0 +1,5 @@
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json
+WWW-Authenticate: Bearer realm="api"
+
+{"error": "missing_token", "message": "Authorization header required"}

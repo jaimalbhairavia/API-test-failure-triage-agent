@@ -1,0 +1,5 @@
+GET /jobs/job-abc HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+
+(last of 10 polling requests over ~1s; earlier polls also returned status=pending)

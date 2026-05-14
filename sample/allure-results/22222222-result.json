@@ -1,0 +1,20 @@
+{
+  "uuid": "22222222-2222-2222-2222-222222222222",
+  "name": "test_list_orders_requires_auth",
+  "fullName": "tests/test_users.py::test_list_orders_requires_auth",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 401 == 200",
+    "trace": "tests/test_users.py:15: in test_list_orders_requires_auth\n    assert resp.status_code == 200\nE   AssertionError: assert 401 == 200\nE    +  where 401 = <Response [401]>.status_code"
+  },
+  "start": 1713182401000,
+  "stop": 1713182401120,
+  "labels": [
+    { "name": "suite", "value": "orders" }
+  ],
+  "steps": [],
+  "attachments": [
+    { "name": "request",  "source": "req2-attachment.txt",  "type": "text/plain" },
+    { "name": "response", "source": "res2-attachment.txt", "type": "text/plain" }
+  ]
+}

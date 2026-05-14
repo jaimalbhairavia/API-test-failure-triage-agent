@@ -1,0 +1,20 @@
+{
+  "uuid": "55555555-5555-5555-5555-555555555555",
+  "name": "test_async_job_completes",
+  "fullName": "tests/test_jobs.py::test_async_job_completes",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: job did not complete in time (last status: pending)",
+    "trace": "tests/test_jobs.py:25: in test_async_job_completes\n    assert status == \"completed\", (\nE   AssertionError: job did not complete in time (last status: pending)\nE   assert 'pending' == 'completed'"
+  },
+  "start": 1713182700000,
+  "stop": 1713182701120,
+  "labels": [
+    { "name": "suite", "value": "jobs" }
+  ],
+  "steps": [],
+  "attachments": [
+    { "name": "request",  "source": "req5-attachment.txt",  "type": "text/plain" },
+    { "name": "response", "source": "res5-attachment.txt", "type": "text/plain" }
+  ]
+}
