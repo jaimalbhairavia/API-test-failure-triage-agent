@@ -1,4 +1,4 @@
-# Allure Triage Agent (pilot)
+# API Test Failure Triage Agent (pilot)
 
 A lightweight LangChain agent that reads an Allure report, classifies
 each failing test, proposes a fix, and does a single re-run to detect
